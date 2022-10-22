@@ -1,0 +1,31 @@
+snippet cfun "const function" b
+const $1 = () => {
+$0
+}
+endsnippet
+
+snippet cfunexp "const function export default" b
+const $1 = () => {
+$0
+
+	return (
+
+)}
+
+export default $1
+endsnippet
+
+snippet funexp "export default function" b
+export default function $1 = () => {
+$0
+
+return (
+
+)}
+endsnippet
+
+snippet fun "function" b
+function $1(){
+$0
+}
+endsnippet
